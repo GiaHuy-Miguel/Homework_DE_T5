@@ -1,0 +1,2 @@
+    - overloading:xảy ra trong cùng một class. Chỉ cn cùng tên
+    - overriding: xảy ra ở 2 class có quan hệ kế thừa. Không được đổi kiểu, đổi tham số

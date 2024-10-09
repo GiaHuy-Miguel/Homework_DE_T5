@@ -29,7 +29,7 @@ public class hw_buoi2_2606 {
         int[] nums = {1};
         if (nums.length == 1) System.out.println("The largest sum is:" + nums[0]);
 */
-        /*
+
 //        Example 3:
 //        Input: nums = [5,4,-1,7,8]
 //        Output: 23
@@ -44,13 +44,13 @@ public class hw_buoi2_2606 {
             if (b < a) b = a;
         }
         System.out.println("The largest sum is:" + b);
-*/
 
+/*
 //        Example 4:
         int[] nums = {2, 0, 2, 1, 1, 0};
         for (int i = 1; i < nums.length; i++) {
             int key = nums[i];
-            int j = i - 1;
+            int j =mo i - 1;
             while (j>= 0 && nums[j] > key) {
                 nums[j + 1] = nums[j];
                 j = j - 1;
@@ -58,5 +58,7 @@ public class hw_buoi2_2606 {
             nums[j + 1] = key;
         }
         System.out.println(Arrays.toString(nums));
+
+ */
     }
 }
